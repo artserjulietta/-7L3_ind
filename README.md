@@ -29,4 +29,7 @@ pytest
 ## Автор
 
 Kodland
+
 Alisher
+
+Juli
