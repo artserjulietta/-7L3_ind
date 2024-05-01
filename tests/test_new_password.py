@@ -8,6 +8,10 @@ def test_password_characters():
     for char in password:
         assert char in valid_characters
 
+def test_length():
+    password = generate_password(15)
+    assert len(password) == 15
+
 """
 Допиши еще один тест из предложенных. Или придумай свой.
 Если сможешь написать больше, то будет круто!
