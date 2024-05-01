@@ -12,6 +12,11 @@ def test_length():
     password = generate_password(15)
     assert len(password) == 15
 
+def test_lenght_new():
+    leng = 10
+    password = generate_password(leng) 
+    assert len(password) == leng
+
 """
 Допиши еще один тест из предложенных. Или придумай свой.
 Если сможешь написать больше, то будет круто!
